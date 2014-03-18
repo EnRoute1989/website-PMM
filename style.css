@@ -900,8 +900,8 @@ header[role=banner] {
 	body.page .entry-title, 
 	body.single .entry-title, 
 	.not-found .entry-title {
-		font-size: 35px; /* for ie8 & below */ 
-		font-size: 2.2rem;
+		font-size: 20px; /* for ie8 & below  35px; */ 
+		font-size: 1.8rem;		  /* 2.2rem;*/
 	}
 	
 .page-header { 
@@ -3533,8 +3533,8 @@ PRINT STYLES
 
 /*子页框架*/
 .main{ width:1000px; height:auto; padding:18px 0; float:left; background:#fff;}
-.main .right{ width:733px; height:auto; float:left; padding-left:40px; background:url(library/images/body_bg_2.png) repeat-y top left;}
-.main .left{ width:219px; height:auto; min-height:251px;_height:251px; float:left; padding-right:7px; }			 /*background:url(library/images/li_r_bg.gif) repeat-y top right;*/
+.main .right{ width:733px; height:auto; float:left; padding-left:40px; background:url(library/images/body_bg_2.png) repeat-y top left;min-height:251px;_height:251px;}
+.main .left{ width:219px; height:auto;  float:left; padding-right:7px; }			 /*background:url(library/images/li_r_bg.gif) repeat-y top right;*/
 
 /*左侧栏目*/
 .main .left h2{ width:219px; height:auto; text-align:center; float:left;}
@@ -3545,7 +3545,7 @@ PRINT STYLES
 .list ul li a{ color:#000; text-decoration:none;}
 
 /*右侧栏目*/
-.right h2{ width:603px; line-height:29px; float:left; background:url(http://sklmcb.nankai.edu.cn/template/images/page/mbx.jpg) no-repeat left; font-size:12px; font-family:"宋体"; font-weight:bold; color:#a1a1a1; padding-left:130px; border-bottom:1px solid #767676;}
+.right h2{ width:603px; line-height:29px; float:left; background:url(http://sklmcb.nankai.edu.cn/template/images/page/mbx.jpg) no-repeat left; font-size:12px; font-family:"宋体"; font-weight:bold; color: #a50052; padding-left:130px; border-bottom:1px solid #767676;}
 .right h2 a{ color:#a1a1a1;}
 
 /*单页介绍*/
@@ -3553,4 +3553,11 @@ PRINT STYLES
 .aboutcontent h4{ width:733px; height:auto; float:left; line-height:40px; font-size:20px; font-family:"宋体"; font-weight:bold; text-align:center; padding-bottom:30px;}
 .aboutcontent img{ width: expression(this.width > 720 ? 720 : true);max-width: 720px;}
 
+.news {
+width: 733px;
+height: auto;
+padding: 5px 0px;
+}
+.news a{color:#000000;}
+.news ul li span{ float:right; color:#b88000;}
 

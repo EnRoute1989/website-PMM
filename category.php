@@ -1,60 +1,43 @@
-ï»¿<?php get_header(); ?>
+<?php get_header(); ?>
 
     <div id="content" class="clearfix">
-        
-        <div id="main" class="col620 clearfix" role="main">
+        <!--  Add gallery to the head -->
+      	<div id="main" class="clearfix sldr" role="main">
+		
+        	<img src="http://bbs.nankai.edu.cn/data/user/img/group.jpg" >
+            
+           	<!--  Start showing content below = right + left-->
 
-			<?php if ( have_posts() ) : ?>
+		   <div class="main">
+				<!--  Start sidebar--page content -- left  -->
+				 <div class="left">
+					
+					
+					<ul>
+					  <div class="list" >
+					     <?php wp_list_categories('hide_empty=0'); //ÏÔÊ¾È«²¿·ÖÀàÄ¿Â¼?>
+					  </div>
+					</ul>
 
-				<header class="page-header">
-					<h1 class="page-title"><?php
-						printf( __( 'å½“å‰ä½ç½®: %s', 'restaurateur' ), '<span class="colortxt">' . single_cat_title( '', false ) . '</span>' );
-					?></h1>
+				 </div>
+				<!--  Start sidebar--page content --right  -->
+			   <div class="right">
+					<h2><?php
+						printf( __( ' %s', 'restaurateur' ), '<span class="colortxt">' . single_cat_title( '', false ) . '</span>' );
+					?></h2>
+					<?php while ( have_posts() ) : the_post(); ?>
+					    <div class="news">
+							<ul><?php get_template_part( 'content-new', 'page' ); ?> </li>
+						</div>
 
-					<?php
-						$category_description = category_description();
-						if ( ! empty( $category_description ) )
-							echo apply_filters( 'category_archive_meta', '<div class="category-archive-meta">' . $category_description . '</div>' );
-					?>
-				</header>
+					<?php endwhile; // end of the loop. ?>
+					
+			   </div>
 
-				<?php /* Start the Loop */ ?>
-				<?php while ( have_posts() ) : the_post(); ?>
-
-					<?php
-						/* Include the Post-Format-specific template for the content.
-						 * If you want to overload this in a child theme then include a file
-						 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-						 */
-						get_template_part( 'content', get_post_format() );
-					?>
-
-				<?php endwhile; ?>
-
-				<?php if (function_exists("restaurateur_pagination")) {
-							restaurateur_pagination(); 
-				} elseif (function_exists("restaurateur_content_nav")) { 
-							restaurateur_content_nav( 'nav-below' );
-				}?>
-
-			<?php else : ?>
-
-				<article id="post-0" class="post no-results not-found">
-					<header class="entry-header">
-						<h1 class="entry-title"><?php _e( 'Nothing Found', 'restaurateur' ); ?></h1>
-					</header><!-- .entry-header -->
-
-					<div class="entry-content post-content">
-						<p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'restaurateur' ); ?></p>
-						<?php get_search_form(); ?>
-					</div><!-- .entry-content -->
-				</article><!-- #post-0 -->
-
-			<?php endif; ?>
-
+		   </div>
         </div> <!-- end #main -->
 
-        <?php get_sidebar(); ?>
+        <?//php get_sidebar("home"); // sidebar 1 ?>
 
     </div> <!-- end #content -->
         

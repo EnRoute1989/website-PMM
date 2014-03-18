@@ -42,7 +42,7 @@
 				<!--  Start sidebar--page content --right  -->
 			   <div class="right">
 					<?php while ( have_posts() ) : the_post(); ?>
-
+						<h2><?php echo get_the_title($post->post_parent); ?>  </h2>
 						<?php get_template_part( 'content', 'page' ); ?>
 
 					<?php endwhile; // end of the loop. ?>
