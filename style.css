@@ -3577,7 +3577,7 @@ float: left;
 
 /*子页框架*/
 .main{ width:1000px; height:auto; padding:18px 0; float:left; background:#fff;}
-.main .right{ width:733px; height:auto; float:left; padding-left:40px; background:url(library/images/body_bg_2.png) repeat-y top left;min-height:251px;_height:251px;}
+.main .right{ width:733px; height:auto; float:left; padding-left:20px;margin-left:20px;border-left:3px solid #822c68;/* background:url(library/images/4.png) repeat-y top left;*/min-height:351px;_height:351px;}
 .main .left{ width:219px; height:auto;  float:left; padding-right:7px; }			 /*background:url(library/images/li_r_bg.gif) repeat-y top right;*/
 
 /*左侧栏目*/
@@ -3585,11 +3585,11 @@ float: left;
 
 /*栏目列表*/
 .list{ width:201px; height:auto; padding:10px 15px;}
-.list ul li{ width:201px; line-height:28px; background:url(http://sklmcb.nankai.edu.cn/template/images/page/list.png) no-repeat; font-size:16px; font-family:"Microsoft YaHei"; text-align:center; color:#000; margin-bottom:5px;}
+.list ul li{ width:201px; line-height:28px; background:url(library/images/list.png) no-repeat; font-size:16px; font-family:"Microsoft YaHei"; text-align:center; color:#000; margin-bottom:5px;}
 .list ul li a{ color:#000; text-decoration:none;}
 
 /*右侧栏目*/
-.right h2{ width:603px; line-height:29px; float:left; background:url(http://sklmcb.nankai.edu.cn/template/images/page/mbx.jpg) no-repeat left; font-size:14px; font-family:"Microsoft YaHei"; font-weight:bold; color: #a50052; padding-left:130px;margin-bottom:15px;}
+.right h2{ width:603px; line-height:29px; float:left; background:url(library/images/5.png) no-repeat left; font-size:15px; font-family:"Microsoft YaHei"; font-weight:bold; color: #a50052; padding-left:130px;margin-left:15px;margin-bottom:15px;}
 .right h2 a{ color:#a1a1a1;}
 
 /*单页介绍*/
