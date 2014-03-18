@@ -103,7 +103,10 @@ body {
 	font-size: 1rem; 
 	line-height: 24px; /* for ie8 & below*/ 
 	line-height: 1.5rem; 
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: "Microsoft YaHei", Georgia, "Times New Roman", Times, serif;
+	width:1280px;
+	margin : 0 auto;
+	overflow: scroll;
 }
 
 p { 
@@ -527,6 +530,7 @@ body {
 		margin-left: 1%; 
 		margin-right: 1%; 
 		position: relative;
+			
 	}
 	
 	/* default styles & fixes */
@@ -566,6 +570,7 @@ TEXT SELECTION STYLES
 	background: #5e5d5c; 
 	color: #fff; 
 	text-shadow : none; 
+
 }
 
 /* Firefox */
@@ -686,7 +691,7 @@ SEARCH BOX
 #searchform input[type=submit] {
 	height: 30px;
 	background-color: #5e5d5c;
-	font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+	font-family: "Microsoft YaHei", "Droid Sans", Arial, Helvetica, sans-serif;
 	font-weight: 700;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -700,7 +705,7 @@ SEARCH BOX
 	width: 23px;
 	height: 23px;
 	background-color: #5e5d5c;
-	font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+	font-family: "Microsoft YaHei", "Droid Sans", Arial, Helvetica, sans-serif;
 	font-weight: 700;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -813,7 +818,7 @@ h2, .h2,
 h3, .h3,
 h4, .h4, 
 h5, .h5 {
-	font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif;
+	font-family: "Microsoft YaHei", "Droid Serif", Georgia, "Times New Roman", Times, serif;
 	font-weight: 400;
 }
 
@@ -862,7 +867,7 @@ header[role=banner] {
 	#site-title {
 		margin-bottom: 24px; /* for ie8 & below */
 		margin-bottom: 1.5rem;
-		font-family: "Damion", Georgia, "Times New Roman", Times, serif;
+		font-family: "Microsoft YaHei", "Damion", Georgia, "Times New Roman", Times, serif;
 		font-size: 60px;
 		font-weight: 400;
 	}
@@ -880,15 +885,15 @@ header[role=banner] {
 	}
 
 .entry-header { 
-	margin-bottom: 15px; /*25px*/
-	border-bottom: 3px solid #eee;
-	padding: 15px 0;
+	/*margin-bottom: 15px; 25px*/
+	/*border-bottom: 3px solid #822c68;	*/
+	/*padding: 15px 0;*/
 }
 
 .entry-title {
 	font-size: 30px; /* for ie8 & below */ 
 	font-size: 1.85rem;
-	font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif;
+	font-family: "Microsoft YaHei", "Droid Serif", Georgia, "Times New Roman", Times, serif;
 	font-weight: 400;
 	line-height: 32px; /* for ie8 & below */
 	line-height: 2rem;
@@ -901,7 +906,7 @@ header[role=banner] {
 	body.single .entry-title, 
 	.not-found .entry-title {
 		font-size: 20px; /* for ie8 & below  35px; */ 
-		font-size: 1.8rem;		  /* 2.2rem;*/
+		/*font-size: 		   2.2rem;*/
 	}
 	
 .page-header { 
@@ -992,7 +997,7 @@ div.menu {
 			}
 
 nav[role=navigation] {
-	background-color: #5e5d5c;
+	background-color: 5e5d5c;	
 }
 	nav[role=navigation] div.menu { 
 		
@@ -1004,12 +1009,12 @@ nav[role=navigation] {
 		nav[role=navigation] .menu ul li {}
 			nav[role=navigation] .menu ul li a, 
 			nav[role=navigation] .menu #menu-icon { 
-				padding: 12px 20px;	  /*15px 20px;*/
+				padding: 9px 15px;	  /*15px 20px;*/
 				color: #fff !important;
-				font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+				font-family: "Microsoft YaHei", "Droid Sans", Arial, Helvetica, sans-serif;
 				font-weight: 700;
 				font-size: 14px; /* for ie8 & below */
-				font-size: 0.9rem;
+				font-size: 1.1rem;	   /*0.9rem*/
 				text-transform: uppercase;
 			}
 			
@@ -1175,7 +1180,7 @@ POSTS & CONTENT STYLES
 		/* post meta */
 		.entry-meta, 
 		.category-archive-meta { 
-			font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+			font-family: "Microsoft YaHei", "Droid Sans", Arial, Helvetica, sans-serif;
 			font-size: 13px; /* for ie8 & below */
 			font-size: .8rem;
 			font-weight: 400;
@@ -1265,8 +1270,8 @@ POSTS & CONTENT STYLES
 		/* post content */
 		.post-content { 
 			word-wrap: break-word;
-			margin-bottom: 26px; /* for ie8 & below */ 
-			margin-bottom: 1.75rem;
+			/* margin-bottom: 26px; for ie8 & below 
+			margin-bottom: 1.75rem;	   */
 			overflow: hidden;
 		}
 
@@ -1359,7 +1364,7 @@ POSTS & CONTENT STYLES
 					left: 0;
 					top: 2px;
 					color: #a0a0a0;
-					font-family: Arial, Helvetica, sans-serif;
+					font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
 					font-weight: bold;
 					font-size: 12px;
 					text-align: center;
@@ -1381,7 +1386,7 @@ POSTS & CONTENT STYLES
 					left: 0;
 					top: 0;
 					color: #a0a0a0;
-					font-family: Arial, Helvetica, sans-serif;
+					font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
 					font-weight: 700;
 					font-size: 16px;
 				}
@@ -1407,7 +1412,7 @@ POSTS & CONTENT STYLES
 			
 			.commentlist li.comment article[id*=comment-] blockquote:before, 
 			.post-content blockquote:before { 
-				font-family: Georgia, serif;
+				font-family: "Microsoft YaHei", Georgia, serif;
 				font-weight: 700;
 				content: "“";
 				font-size: 80px; /* for ie8 & below*/ 
@@ -1643,7 +1648,7 @@ PAGE NAVI STYLES
 (Special Feature)
 ******************************************************************/
 .pagination {
-	font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+	font-family: "Microsoft YaHei", "Droid Sans", Arial, Helvetica, sans-serif;
 	font-weight: 700;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -1747,7 +1752,7 @@ PAGE LINK STYLES
 	border-radius: 15px;
 	display: inline-block;
 	padding: 2px 15px;
-	font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+	font-family: "Microsoft YaHei", "Droid Sans", Arial, Helvetica, sans-serif;
 	font-size: 13px; /* for ie8 & below*/
 	font-size: 0.8rem;
 	font-weight: 700;
@@ -1766,7 +1771,7 @@ SIDEBARS & ASIDES
 ******************************************************************/
 #sidebar-home-wrap {
 	background-color: #fff;
-	padding: 30px 0 10px 0;
+	padding: 0 0 10px 0;	  /*padding: 30px 0 10px 0;*/
 	-webkit-box-sizing : border-box; 
 	-moz-box-sizing : border-box; 
 	-o-box-sizing : border-box; 
@@ -1844,12 +1849,12 @@ SIDEBARS & ASIDES
 		
 		#sidebar .widget-title,
 		#sidebar-home .widget-title {
-			font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+			font-family: "Microsoft YaHei", "Droid Sans", Arial, Helvetica, sans-serif;
 			font-size: 20px; /* for ie8 & below */
-			font-size: 1.25rem;
+			font-size: 1.05rem;	  /*1.25rem*/
 			font-weight: 700;
-			margin-bottom: 16px; /* for ie8 & below */
-			margin-bottom: 1rem;
+			margin-bottom: 0; /* for ie8 & below 16px*/
+			margin-bottom: 0;	 /*1rem*/
 			text-transform: uppercase;
 			color: #e68b2b;
 			border-bottom:2px solid rgb(87, 14, 57);
@@ -1967,7 +1972,7 @@ COMMENT STYLES
 	color: #5e5d5c;
 }
 #comments-title {
-	font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif;
+	font-family: "Microsoft YaHei", "Droid Serif", Georgia, "Times New Roman", Times, serif;
 	font-size: 21px; /* for ie8 & below */
 	font-size: 1.3rem;
 	font-weight: 400;
@@ -2076,7 +2081,7 @@ body.page-template-full-width-php .commentlist {}
 				float: left; 
 			}
 				.commentlist .vcard cite.fn {
-					font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+					font-family: "Microsoft YaHei", "Droid Sans", Arial, Helvetica, sans-serif;
 					font-size: 14px;
 					font-weight: 700; 
 					font-style: normal;
@@ -2105,7 +2110,7 @@ body.page-template-full-width-php .commentlist {}
 				}
 				.commentlist .vcard cite.fn a.url {}
 			.commentlist .comment-meta {
-				font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+				font-family: "Microsoft YaHei", "Droid Sans", Arial, Helvetica, sans-serif;
 				font-size: 14px;
 				font-weight: 400; 
 				font-style: normal;
@@ -2146,7 +2151,7 @@ body.page-template-full-width-php .commentlist {}
 					border-radius: 15px;
 					display: inline-block;
 					padding: 2px 15px;
-					font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+					font-family: "Microsoft YaHei", "Droid Sans", Arial, Helvetica, sans-serif;
 					font-size: 13px; /* for ie8 & below */
 					font-size: 0.8rem;
 					font-weight: 700;
@@ -2175,7 +2180,7 @@ body.page-template-full-width-php #respond-form {}
 	color: #5e5d5c;
 }
 #reply-title {
-	font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif;
+	font-family: "Microsoft YaHei", "Droid Serif", Georgia, "Times New Roman", Times, serif;
 	font-size: 18px; /* for ie8 & below */
 	font-size: 1.3rem;
 	font-weight: 400;
@@ -2184,7 +2189,7 @@ body.page-template-full-width-php #respond-form {}
 }
 #respond label {
 	display: inline-block;
-	font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif;
+	font-family: "Microsoft YaHei", "Droid Serif", Georgia, "Times New Roman", Times, serif;
 	font-size: 16px;
 	font-weight: 700;
 	min-width: 90px;
@@ -2199,7 +2204,7 @@ body.page-template-full-width-php #respond-form {}
 	}
 	
 	.post-content form label {
-		font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif;
+		font-family: "Microsoft YaHei", "Droid Serif", Georgia, "Times New Roman", Times, serif;
 		font-size: 16px;
 		font-weight: 700;
 	}
@@ -2230,7 +2235,7 @@ body.page-template-full-width-php #respond-form {}
 
 #respond .comment-notes,
 #respond .logged-in-as {
-	font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+	font-family: "Microsoft YaHei", "Droid Sans", Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	text-transform: uppercase;
 }
@@ -2319,7 +2324,7 @@ body.page-template-full-width-php #respond-form {}
 					border-radius: 15px;
 					display: inline-block;
 					padding: 6px 15px;
-					font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+					font-family: "Microsoft YaHei", "Droid Sans", Arial, Helvetica, sans-serif;
 					font-size: 13px; /* for ie8 & below */
 					font-size: 0.8rem;
 					font-weight: 700;
@@ -2453,9 +2458,12 @@ img.size-medium,
 
 .noimgthumb {
 	overflow: hidden;
-	height: 1px;
-	background-color: #ebebeb;
-	margin: 0 -30px 24px -30px;
+	height: 2px;
+	background:#822c68;
+	margin-bottom:3px;
+	/*height: 1px;
+	background-color: #ebebeb;   
+	margin: 0 -30px 24px -30px;	*/
 }
 
 /* wp caption styles */
@@ -2495,8 +2503,8 @@ FOOTER STYLES
 ******************************************************************/
 
 footer[role=contentinfo] {
-	padding: 19px 0; /* for ie8 & below*/
-	padding: 1.2rem 0;
+	padding: 9px 0; /* for ie8 & below*/
+	padding: 9px 0;	 /*1.2rem 0*/
 	background-color: #5e5d5c;
 }
 	footer[role=contentinfo] div {
@@ -2512,7 +2520,7 @@ footer[role=contentinfo] {
 	}
 	
 	#site-generator {
-		font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+		font-family: "Microsoft YaHei", "Droid Sans", Arial, Helvetica, sans-serif;
 		font-weight: 700;
 		font-size: 11px;
 		color: #fff;
@@ -2605,7 +2613,7 @@ jQuery SLIDER STYLES
 		}
 	
 	.slides .slide-noimg {
-		font-family: "Lato", Verdana, Geneva, sans-serif;
+		font-family: "Microsoft YaHei", "Lato", Verdana, Geneva, sans-serif;
 		font-size: 20px;
 		font-weight: 900;
 		position: absolute;
@@ -2641,7 +2649,7 @@ jQuery SLIDER STYLES
 
 .cycle-paused:after {
 	content: 'Paused'; 
-	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	font-family: "Microsoft YaHei", "Open Sans", Arial, Helvetica, sans-serif;
 	font-size: 12px; /* for ie8 & below */
 	font-size: 0.75rem;
 	text-transform: uppercase;
@@ -2663,7 +2671,7 @@ jQuery SLIDER STYLES
 }
 
 .cycle-pager span { 
-    font-family: arial; 
+    font-family: "Microsoft YaHei", arial; 
 	font-size: 50px; 
 	width: 18px; 
 	height: 22px; 
@@ -2681,7 +2689,7 @@ jQuery SLIDER STYLES
 	position: absolute;
 	width: 100%;
 	top: 40%;
-	font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+	font-family: "Microsoft YaHei", "Droid Sans", Arial, Helvetica, sans-serif;
 	font-size: 34px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -2690,7 +2698,7 @@ jQuery SLIDER STYLES
 }
 
 .intro-content {
-	font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif;
+	font-family: "Microsoft YaHei", "Droid Serif", Georgia, "Times New Roman", Times, serif;
 	font-size: 21px;
 	font-weight: 400;
 	line-height: 32px;
@@ -2886,7 +2894,7 @@ Menu Styles
 #menu-filters li a,
 #menu-item-icon {
 	display: block;
-	font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+	font-family: "Microsoft YaHei", "Droid Sans", Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -3517,16 +3525,52 @@ PRINT STYLES
 /*首页栏目*/
 .ibox{ width:1000px; height:auto; float:left;}
 
-/*通知公告*/
-.inotice{ width:300px; height:150px; float:left; margin:20px;}
-.inotice h2{ width:300px; height:22px; float:left; border-bottom:1px solid #787878;}
-.inotice h2 span, .inotice span a { float:right;}
-.inotice span a {font-size:14px;}
-.inotice ul{ width:300px; height:auto; float:left; padding:15px 0px;}
-.inotice ul li{ width:300px; line-height:20px; font-size:16px; font-family:"宋体"; white-space:nowrap; overflow:hidden;text-overflow:ellipsis; background:url(http://sklmcb.nankai.edu.cn/template/images/arrow.png) no-repeat 5px 6px;  padding-left:10px; padding-bottom:5px; float:left;}
-.inotice ul li a{ color:#3E403B;}
-.inotice ul li span{ float:right; color:#b88000;}
+.ml {
+width: 325px;
+float: left;
+}
 
+.mc {
+width: 365px;
+float: left;
+margin-left:21px;
+}
+
+.mr {
+width: 245px;
+margin-left:21px;
+float: left;
+}
+
+/*通知公告*/
+.inotice{ width:325px; height:150px; margin:20px;}
+.inotice h2{ width:325px; height:22px; border-bottom:1px solid #787878;}
+.inotice h2 span, .inotice span a { float:right;}
+.inotice span a {font-size:12px; color:#d10c75;}
+.inotice ul{ width:325px; height:auto;  padding:15px 0px;}
+.inotice ul li{ width:315px; line-height:20px; font-size:12px; font-family:"Microsoft YaHei";  white-space:nowrap; overflow:hidden;text-overflow:ellipsis;background:url(http://sklmcb.nankai.edu.cn/template/images/arrow.png) no-repeat 5px 6px;  padding-left:10px; padding-bottom:5px; float:left;}
+.inotice ul li a{ color:#3E403B;}
+.inotice ul li span{ float:right; color:#b88000;}	/*#b88000*/
+
+/*科研进展*/
+.iprogress{ width:365px; height:150px; float:left; margin:20px;}
+.iprogress h2{ width:365px; height:22px; float:left; border-bottom:1px solid #787878;}
+.iprogress h2 span, .iprogress span a { float:right;}
+.iprogress span a {font-size:12px; color:#d10c75;}
+.iprogress ul{ width:365px; height:auto; float:left; padding:15px 0px;}
+.iprogress ul li{ width:355px; line-height:20px; font-size:12px; font-family:"Microsoft YaHei"; white-space:nowrap; overflow:hidden;text-overflow:ellipsis; background:url(http://sklmcb.nankai.edu.cn/template/images/arrow.png) no-repeat 5px 6px;  padding-left:10px; padding-bottom:5px; float:left;}
+.iprogress ul li a{ color:#3E403B;}
+.iprogress ul li span{ float:right; color:#b88000;}
+
+/*政策法规*/
+.ilaws{ width:245px; height:150px; float:left; margin:20px;}
+.ilaws h2{ width:245px; height:22px; float:left; border-bottom:1px solid #787878;}
+.ilaws h2 span, .iprogress span a { float:right;}
+.ilaws span a {font-size:12px; color:#d10c75; float:right;}
+.ilaws ul{ width:245px; height:auto; float:left; padding:15px 0px;}
+.ilaws ul li{ width:235px; line-height:20px; font-size:12px; font-family:"Microsoft YaHei"; white-space:nowrap; overflow:hidden;text-overflow:ellipsis; background:url(http://sklmcb.nankai.edu.cn/template/images/arrow.png) no-repeat 5px 6px;  padding-left:10px; padding-bottom:5px; float:left;}
+.ilaws ul li a{ color:#3E403B;}
+.ilaws ul li span{ float:right; color:#b88000;}
 /*切换语言栏*/
 .qtrans_language { float:right; }
 .qtrans_language_chooser li { float:left; margin:0 5px; }
@@ -3537,27 +3581,32 @@ PRINT STYLES
 .main .left{ width:219px; height:auto;  float:left; padding-right:7px; }			 /*background:url(library/images/li_r_bg.gif) repeat-y top right;*/
 
 /*左侧栏目*/
-.main .left h2{ width:219px; height:auto; text-align:center; float:left;}
+.main .left h2{ width:219px; height:auto; text-align:center; float:left; }
 
 /*栏目列表*/
 .list{ width:201px; height:auto; padding:10px 15px;}
-.list ul li{ width:201px; line-height:28px; background:url(http://sklmcb.nankai.edu.cn/template/images/page/list.png) no-repeat; font-size:16px; font-family:"楷体"; text-align:center; color:#000; margin-bottom:5px;}
+.list ul li{ width:201px; line-height:28px; background:url(http://sklmcb.nankai.edu.cn/template/images/page/list.png) no-repeat; font-size:16px; font-family:"Microsoft YaHei"; text-align:center; color:#000; margin-bottom:5px;}
 .list ul li a{ color:#000; text-decoration:none;}
 
 /*右侧栏目*/
-.right h2{ width:603px; line-height:29px; float:left; background:url(http://sklmcb.nankai.edu.cn/template/images/page/mbx.jpg) no-repeat left; font-size:12px; font-family:"宋体"; font-weight:bold; color: #a50052; padding-left:130px; border-bottom:1px solid #767676;}
+.right h2{ width:603px; line-height:29px; float:left; background:url(http://sklmcb.nankai.edu.cn/template/images/page/mbx.jpg) no-repeat left; font-size:14px; font-family:"Microsoft YaHei"; font-weight:bold; color: #a50052; padding-left:130px;margin-bottom:15px;}
 .right h2 a{ color:#a1a1a1;}
 
 /*单页介绍*/
 .aboutcontent{ width:733px; height:auto; float:left; padding:15px 0px;  font-size:12px; line-height:30px;}
-.aboutcontent h4{ width:733px; height:auto; float:left; line-height:40px; font-size:20px; font-family:"宋体"; font-weight:bold; text-align:center; padding-bottom:30px;}
+.aboutcontent h4{ width:733px; height:auto; float:left; line-height:40px; font-size:20px; font-family:"Microsoft YaHei"; font-weight:bold; text-align:center; padding-bottom:30px;}
 .aboutcontent img{ width: expression(this.width > 720 ? 720 : true);max-width: 720px;}
 
 .news {
-width: 733px;
+width: 633px;
 height: auto;
 padding: 5px 0px;
 }
 .news a{color:#000000;}
-.news ul li span{ float:right; color:#b88000;}
+.news ul li span{ float:right; color:#b88000; font-size:9px;}
 
+ .entry_date {
+ font-size : 12px;
+ color: red;
+ float:right;
+ }

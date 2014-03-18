@@ -29,9 +29,9 @@
 					    <div class="news">
 							<ul><?php get_template_part( 'content-new', 'page' ); ?> </li>
 						</div>
-
+						
 					<?php endwhile; // end of the loop. ?>
-					
+					<?php restaurateur_pagination($range = 2); ?>
 			   </div>
 
 		   </div>

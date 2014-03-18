@@ -29,7 +29,7 @@
 							echo $category[0]->cat_name;    //使用$categories->cat_name不能获得正确值,应该$categories[0]->cat_name才能正确工作。
 						?>	
 					</h2>
-						<?php get_template_part( 'content', 'page' ); ?>
+						<?php get_template_part( 'content', 'single' ); ?>
 
 					<?php endwhile; // end of the loop. ?>
 			   </div>
