@@ -4,15 +4,13 @@
         <!--  Add gallery to the head -->
       	<div id="main" class="clearfix sldr" role="main">
 		
-        	<img src="http://bbs.nankai.edu.cn/data/user/img/group.jpg" >
+        	<img src="wp-content/themes/restaurateur/library/images/group.jpg" >
             
            	<!--  Start showing content below = right + left-->
 
 		   <div class="main">
 				<!--  Start sidebar--page content -- left  -->
 				 <div class="left">
-					
-					
 					<ul>
 						 <?//php wp_list_pages('title_li='); //显示全部页面id?>
 						 <ul>

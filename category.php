@@ -31,7 +31,10 @@
 						</div>
 						
 					<?php endwhile; // end of the loop. ?>
-					<?php restaurateur_pagination($range = 2); ?>
+					<?php 
+					
+					?>
+					<?php restaurateur_pagination($range = 1); ?>
 			   </div>
 
 		   </div>

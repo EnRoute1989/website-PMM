@@ -7,11 +7,7 @@
 		<div id="sidebar-home" class="widget-area" role="complementary">
 			<div id="sidefix" class="clearfix">
 
-			<?php if ( have_posts() ) : ?>
-	
-			<?php endif; ?>
-
-			 <?php
+			<?php
 				// 定义参数数组，get_categories方法里用到order-->按最近的日期显示 desc
 				// orderby id,所有的分类目录按照id的大小从左到右排序
 				// 单参情况$scat = get_categories('hide_empty=0');

@@ -28,10 +28,10 @@
 				</article><!-- #post-0 -->
 
 			<?php endif; ?>
-		   <?php echo get_the_category_list(); ?>
+		   <?php //echo get_the_category_list('hide_empty=0'); ?>
         </div> <!-- end #main -->
 		
-        <?php get_sidebar(); ?>
+        <?php //get_sidebar('home'); ?>
 
     </div> <!-- end #content -->
         
