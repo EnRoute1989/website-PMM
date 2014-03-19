@@ -25,16 +25,27 @@
 					<h2><?php
 						printf( __( ' %s', 'restaurateur' ), '<span class="colortxt">' . single_cat_title( '', false ) . '</span>' );
 					?></h2>
+					<?php
+						//$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+						//$args = array(
+						 // 'posts_per_page' => 3,
+						  //'paged' => $paged
+						//);
+
+						//query_posts($args); 
+					?>
 					<?php while ( have_posts() ) : the_post(); ?>
 					    <div class="news">
 							<ul><?php get_template_part( 'content-new', 'page' ); ?> </li>
 						</div>
 						
 					<?php endwhile; // end of the loop. ?>
-					<?php 
-					
+					<?php $count_posts = wp_count_posts(); //echo $published_posts = $count_posts->publish;
+						$range=ceil($count_posts->publish / 20);
+						//echo $range;
 					?>
-					<?php restaurateur_pagination($range = 1); ?>
+					
+					<?php restaurateur_pagination($range); ?>
 			   </div>
 
 		   </div>
