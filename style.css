@@ -3591,6 +3591,12 @@ float: left;
 /*右侧栏目*/
 .right h2{ width:603px; line-height:29px; float:left; background:url(library/images/5.png) no-repeat left; font-size:15px; font-family:"Microsoft YaHei"; font-weight:bold; color: #a50052; padding-left:130px;margin-left:15px;margin-bottom:15px;}
 .right h2 a{ color:#a1a1a1;}
+.right h3{ float:left; font-size:12px; font-family:"Microsoft YaHei"; color: #a50052;}
+.right h3 a{ color:#a1a1a1; clear:left; padding-left:10px;}
+.right h4{ float:left; font-size:12px; font-family:"Microsoft YaHei"; color: #a50052;}
+.right h4 a{ color:#000; clear:left; padding-left:10px;}
+.right h5{ font-size:12px; font-family:"Microsoft YaHei"; color: #a50052;}
+.right h5 a{ color:#a1a1a1; clear:left; padding-left:10px;}
 
 /*单页介绍*/
 .aboutcontent{ width:733px; height:auto; float:left; padding:15px 0px;  font-size:12px; line-height:30px;}
@@ -3610,3 +3616,98 @@ padding: 5px 0px;
  color: red;
  float:right;
  }
+
+/**自定义功能样式*/
+/**显示研究队伍首页*/
+ .member-table {
+ 	  padding-left:20px;
+ }
+/**分两列*/
+ .twocols {
+	  float:left;
+	  width:48%;
+	  list-style-type:none;
+ }
+
+ /**定义显示成员信息页面*/
+ .profile-head {
+ 	  padding-left:15px;
+ }
+ .wpcf-field-photo {
+	  margin-top:-15px;
+ }
+ .contact {
+	  padding-top:20px;
+ }
+ .wpcf-field-telephone,.wpcf-field-telephone-value,.wpcf-field-e-mail,.wpcf-field-e-mail-value {
+	 font-size:12px;  
+	 display:inline;
+ }
+
+ .wpcf-field-telephone-value,.wpcf-field-e-mail-value {
+ 	 color: #e68b2b;  
+	 
+ }
+
+ .profile-field {
+ 	 margin:50px 0 0 15px;  
+	 font-size:12px;
+	 color:#000;
+ }
+ .profile-field li{
+ 	 list-style-type:square;
+	 color:#e68b2b;
+	 font-weight:bold;
+ }
+ 
+.publication_table {
+	margin:3px;
+}
+
+.disactive {
+	display:none;
+}
+
+.active {
+	display:block;
+	/**background: #CCC; */
+}
+
+.publication_table {display:block;}
+
+.publication_table ul li {
+	margin:20px 0 0 9px;
+	float:left;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 10px;
+	cursor:pointer;
+	background: #822e69;
+	color:#fff;
+}
+
+.sya_container {
+	margin:40px 0 0 -5px;
+	display:block;
+}
+
+#paper-content,#patent-content {	
+	clear: both;
+}
+
+#paper-content,#patent-content .sya_yearslist a{
+	color:#000;	
+}
+
+
+#paper-content ul,#patent-content ul {
+	padding-left:30px;
+}
+
+#paper-content ul li span,#patent-content ul li span {
+	font-size:12px;
+}
+
+#paper-content ul li a,#patent-content ul li a {
+	color:#000;
+}
